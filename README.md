@@ -31,9 +31,9 @@ Solution: I used this "$filename = $surname . '_' . $applicantNumber . '.txt';" 
 6.) Error trapping is a must
 ```
 Solution: I used try and catch to handle exception.
-```php
-Example:
 ```
+Example:
+```php
 try {
     // Code that might throw an exception
     $result = 10 / 0; // This will throw a division by zero exception
