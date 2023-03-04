@@ -113,11 +113,7 @@ if(isset($_FILES['resume']) && $_FILES['resume']['error'] == 0) {
     }
 ```
 
-7.) Lastly, in your admin page. Admin should just enter the file name 
-(file extension not included) of the accepted applicants and when the 
-admin click the 'Accepted' button there should be a 'Passed' word appended 
-at the start of the applicants txt file. And there should be a 'Failed' button 
-that also appends 'Failed' if the applicant didn't met the expectation of our admin.
+7.) Lastly, in your admin page. Admin should just enter the file name (file extension not included) of the accepted applicants and when the admin click the 'Accepted' button there should be a 'Passed' word appended at the start of the applicants txt file. And there should be a 'Failed' button that also appends 'Failed' if the applicant didn't met the expectation of our admin.
 ```php
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   if (isset($_GET['accept'])) {
