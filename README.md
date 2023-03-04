@@ -29,11 +29,11 @@ Solution: I used an html form that has an input field and uploader and use a fwr
 Solution: I used this "$filename = $surname . '_' . $applicantNumber . '.txt';" to generate a text file that has a filename surnameofapplicant_applicantnumber.txt
 ```
 6.) Error trapping is a must
-```php
+```
 Solution: I used try and catch to handle exception.
-
+```php
 Example:
-
+```
 try {
     // Code that might throw an exception
     $result = 10 / 0; // This will throw a division by zero exception
@@ -44,11 +44,11 @@ try {
 
 ```
 7.) Lastly, in your admin page. Admin should just enter the file name (file extension not included) of the accepted applicants and when the admin click the 'Accepted' button there should be a 'Passed' word appended at the start of the applicants txt file. And there should be a 'Failed' button that also appends 'Failed' if the applicant didn't met the expectation of our admin.
-```php
+```
 Solution: I set the uniqid() as the session of the appicant and used it and use a glob() function to check if the uniqid() if the applicant matches in any txt file on the current directory.
-
+```
 Example:
-
+```php
 // Check if the $_SESSION['id'] is matched in filename and append status
       $txt_files = glob("*.txt");
       foreach ($txt_files as $txt_file) {
