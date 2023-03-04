@@ -6,6 +6,12 @@
   <br>
 </h1>
 
+### Contents
+- index.php       // With error trapping
+- applicant.php   // Without error trapping
+- admin.php
+
+
 ### Problem and Solution
 
 1.) Every applicant that uploads their file should have a applicant number provided by your system
