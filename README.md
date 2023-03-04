@@ -9,7 +9,7 @@
 ### Solution
 
 1.) Every applicant that uploads their file should have a applicant number provided by your system
-```
+```php
 $_SESSION['id'] = uniqid();
 $applicantNumber = $_SESSION['id'];
 ```
