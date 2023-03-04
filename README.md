@@ -37,6 +37,10 @@ Example:
 try {
     // Code that might throw an exception
     $result = 10 / 0; // This will throw a division by zero exception
+    // Check if $uploadOk is set to 0 by an error
+        if ($uploadOk == 0) {
+            throw new Exception("Sorry, your file was not uploaded.");
+        }
 } catch (Exception $e) {
     // Handle the exception
     echo "An error occurred: " . $e->getMessage();
