@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/mkdirlove/PHP-Exercise"><img src="https://github.com/mkdirlove/PHP-Exercise/blob/main/task.jpg" width="200" height="300" alt="PHP-Exercise"></a>
+  <a href="https://github.com/mkdirlove/PHP-Exercise"><img src="https://github.com/mkdirlove/PHP-Exercise/blob/main/task.jpg" width="300" height="400" alt="PHP-Exercise"></a>
   <br>
   A simple PHP exercise that I solved.
   <br>
