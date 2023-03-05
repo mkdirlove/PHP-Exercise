@@ -7,8 +7,7 @@
 </h1>
 
 ### Contents
-- index.php       // With error trapping
-- applicant.php   // Without error trapping
+- applicant.php
 - admin.php
 
 
